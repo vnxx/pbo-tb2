@@ -7,3 +7,4 @@ Aplikasi penghitung kebutuhan cat pada ruangan.
 - Ervan Adi Wijaya - 41818310026
 - Nina Marlina - 41819310017
 - Tri Sutrisna NW - 41819310006
+- Gusti Aryo Sadewo - 41818310007
