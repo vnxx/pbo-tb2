@@ -1,5 +1,7 @@
 ## Tugas Besar 2 PBO
-
+Aplikasi penghitung kebutuhan cat pada ruangan.
+<br>
+<br>
 <b>Kelompok:</b>
 - Kevin Adam - 41818310014
 - Ervan Adi Wijaya - 41818310026
