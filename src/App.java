@@ -46,20 +46,21 @@ class MainFrame extends JFrame implements ActionListener {
 
     public MainFrame() {
         setTitle("Hitung Kebutuhan Cat");
-        setBounds(300, 90, 700, 600);
+        setBounds(300, 90, 700, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
 
         c = getContentPane();
         c.setLayout(null);
 
-        JLabel kelompok = new JLabel(
-                "<html>Kevin Adam - 41818310014, Ervan Adi Wijaya - 41818310026,<br> Nina Marlina - 41819310017, Tri Sutrisna NW - 41819310006 </html>",
-                SwingConstants.CENTER);
-        kelompok.setFont(new Font("Arial", Font.PLAIN, 13));
-        kelompok.setSize(500, 100);
-        kelompok.setLocation(100, 480);
-        c.add(kelompok);
+        // JLabel kelompok = new JLabel(
+        // "<html>Kevin Adam - 41818310014, Ervan Adi Wijaya - 41818310026,<br> Nina
+        // Marlina - 41819310017, Tri Sutrisna NW - 41819310006 </html>",
+        // SwingConstants.CENTER);
+        // kelompok.setFont(new Font("Arial", Font.PLAIN, 13));
+        // kelompok.setSize(500, 100);
+        // kelompok.setLocation(100, 480);
+        // c.add(kelompok);
 
         title = new JLabel("Hitung kebutuhan cat");
         title.setFont(new Font("Arial", Font.PLAIN, 30));
@@ -143,7 +144,7 @@ class MainFrame extends JFrame implements ActionListener {
 
         JScrollPane scrollPane = new JScrollPane(MainTable);
         scrollPane.setLocation(0, 260);
-        scrollPane.setSize(700, 200);
+        scrollPane.setSize(700, 217);
         c.add(scrollPane);
 
         // JScrollPane sp = new JScrollPane(MainTable);
