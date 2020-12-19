@@ -41,7 +41,7 @@ class MainFrame extends JFrame implements ActionListener {
     private JButton sub;
     private JButton reset;
 
-    Object[] DefaultData = { "Sample", "3.5", "3", "4", "8.8" };
+    Object[] DefaultData = { "Sample", "3.5", "3", "4", "9.8" };
     String[] columnNames = { "Ruangan", "Panjang", "Lebar", "Tinggi", "Kebutuhan Cat (Liter)" };
 
     public MainFrame() {
@@ -211,7 +211,7 @@ class MainFrame extends JFrame implements ActionListener {
         // Hitung luas permukaan bidang dinding atau tembok yang akan dicat.
         // Tinggi x Lebar x Jumlah dinding | contoh Dinding: 4m x 5m x 4 dinding = 80m2
         wall_num = 4;
-        wall_calc = length * width * wall_num;
+        wall_calc = height * width * wall_num;
 
         // Hitung luas bidang permukaan plafon.
         // Panjang x Lebar | contoh Plafon: 3m x 4m = 12m2
